@@ -1,3 +1,4 @@
+1)List 5 difference between Browser JS(console) v Nodejs
 Node.js
 Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
 “location” object is related to a particular url;that means it is for page specific.So,node doesn’t require that.
@@ -14,5 +15,39 @@ Javascript can only be run in browsers.
 “location” is predefined object in browsers,that has all the information about the url we have loaded.
 “document”,which is also predefined global variable in browsers,has the html which is rendered.
 Moduling is not mandatory in client side JavaScript,in browsers.
+
+2)watch a youtube video about how browser actually render a website & summary 5 points 
+>The browser render a website 
+>In high level flow one will parse the html and another will parse the css and both will go to rendering tree.
+>If we make a lot of mistakes it will work in html,in most languages if you make a mistake or throw an error,it will error out.
+>Html can be recovered,it can be halted.
+>Parsing flow contains these steps:
+Tokeniser which will take text and convert into tokens and then create the parse tree and DOM tree where we interact with the javascript after all this script excecutes.
+<script/> tag stop the execution of html so <script> tag at the bottom of the html code.
+>CSSOM-css objet model will parse the css
+>DOM+CSSOM-combines the two object models and gives us the actual representation on the screen
+>inline css can speed up and external css and js can block.
+
+3)Execute the below code and write your description in txt file
+a)typeof(1)
+Actually typeof() operator will print the datatype of the value.
+when we try to execute typeof(1),we will get the number as output.
+b)typeof(1.1)
+it also print number.
+c)typeof('1.1')
+we get string when we execute this,because if it is in single quotes or double qoutes it is a string.
+d)typeof(true)
+it will print boolean as the datatype of true,false is boolean.
+e)typeof(null)
+it will print object
+f)typeof(undefined)
+it will print undefined only
+g)typeof([])
+we get object as we declare objects using square brackets.
+h)typeof({})
+here also we get object
+i)typeof(NaN)
+we get number as output.
+
 
 
