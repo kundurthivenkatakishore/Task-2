@@ -1,0 +1,18 @@
+Node.js
+Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+“location” object is related to a particular url;that means it is for page specific.So,node doesn’t require that.
+Node doesn’t have “document” object,cause it never have to render anything in a page.
+Node has “global”, which is a predefined global object
+In Node everything is a module. You must keep your code inside a module
+we can run javascript outside of the browser with the help of Node.js
+Node.js is opensource javascript runtime environment that allows the javascript to be run on server side.
+
+Browser Js(console)
+Javascript is a scripting language.
+Javascript can only be run in browsers.
+“window” is a predefined global object which has functions and attributes.
+“location” is predefined object in browsers,that has all the information about the url we have loaded.
+“document”,which is also predefined global variable in browsers,has the html which is rendered.
+Moduling is not mandatory in client side JavaScript,in browsers.
+
+
